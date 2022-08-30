@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home::-webkit-scrollbar,
+.tweetMsg::-webkit-scrollbar{
+    display: none;
+}
+
+.home, .tweetMsg{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
